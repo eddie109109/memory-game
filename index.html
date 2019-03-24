@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Memory game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">请按开始键进行游戏</h1>
+  <!-- <h1 id="level-title">Press the <span>START</span> button to begin</h1>
+  <h2>Welcome to my memory/question game. You will get a prize from Eddie if you hit <span>level 10</span></h2> -->
+
+  <h2>欢迎来到Eddie设计的记忆问题游戏</h2>
+  <h3>游戏规则：当按下开始键后，屏幕上的按键会闪烁，闪烁之后请记住颜色并且按下相应的按键，然后下一个按键会闪烁，你需要按上一次出现过的按键和这一次的按键，例如：红出现，你按红色一下，然后绿色出现，你需要按红色，然后绿色。如此类推。当出错的话就要重新开始。游戏有10级。</h3>
+  <div type="button" id="" class="begin">
+      <p>START</p>
+    </div>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
